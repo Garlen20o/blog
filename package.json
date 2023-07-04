@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs --port 8801",
+    "docs:dev": "vuepress dev docs --port 8801 --temp .temp",
     "docs:build": "vuepress build docs"
   },
   "keywords": [],
@@ -15,5 +15,8 @@
     "@vuepress/client": "2.0.0-beta.63",
     "vue": "^3.3.4",
     "vuepress": "2.0.0-beta.63"
+  },
+  "dependencies": {
+    "@vuepress/cli": "2.0.0-beta.63"
   }
 }
