@@ -2,7 +2,7 @@ import { defineUserConfig, defaultTheme } from 'vuepress'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: 'Garlen的blog',
+  title: 'Garlen blog',
   description: '这是我的第一个 VuePress 站点',
   base:'/blog/',
   theme: defaultTheme({

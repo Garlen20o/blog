@@ -1,4 +1,4 @@
-# Garlen的blog
+# Garlen blog
 
 ## 计划
   - 目前暂时记录日常笔记和工作
