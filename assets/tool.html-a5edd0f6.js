@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-20d0085a","path":"/notes/tool.html","title":"vscode extension","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1699693687000,"contributors":[{"name":"renjl","email":"renjl@toone.com.cn","commits":1}]},"filePathRelative":"notes/tool.md"}');export{t as data};
