@@ -1,11 +1,11 @@
-# 记录周刊
+# 记录周刊OR技术文章
 
 记录[周刊](https://www.ruanyifeng.com/blog/)中，个人认为有意思，有用的内容；输出一些自己的观点
 
 
 
 ## 文章
-
+[字体等比例缩放](https://tobiasahlin.com/blog/responsive-fluid-css-type-scales/)本文介绍使用 CSS，将字体缩着窗口大小等比例缩放。
 
 
 ## 工具
@@ -34,7 +34,9 @@
 
  [Web 音视频系列](https://hughfenghen.github.io/tag/WebAV/)    介绍如何在浏览器中处理音视频 ，当年理想直播厂相关技术栈，可以了解
 
+[B站视频播放HTTP range](https://juejin.cn/post/7255110638154072120) 以后再看 b 站和知乎视频的时候，你会不会想起它是基于 range 来实现的分段下载和播放呢？ 
 
+[基于 HTTP Range 实现视频分片快速播放！](https://www.quanzhan.co/archives/572)
 
 
 
