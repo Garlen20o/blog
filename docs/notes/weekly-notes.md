@@ -45,13 +45,22 @@
 
 ### 工具类型
 
- [AIHub](https://www.aihub.cn/)  
+#### **AI相关**
 
-[POE；DL推荐，可看看](poe.com) 
+-  [AIHub](https://www.aihub.cn/)  
+
+- [POE；DL推荐，可看看](poe.com) 
+- [x-crawl](https://github.com/coder-hxl/x-crawl)一个 AI 辅助的爬虫库，基于 Node.js，抓取网页后，可以用文字描述所要的操作。
+
+
+
+[创作属于你的Logo-自定义LOGO](https://www.logocook.shop/)
 
  [Animotion](https://cssanimotion.pages.dev/)  一个网页 CSS 动画生成器，可视化设定动画，自动生成CSS代码。 
 
-- [includeIf-git多用户环境配置](https://www.cnblogs.com/librarookie/p/15697181.html)
+[includeIf-git多用户环境配置](https://www.cnblogs.com/librarookie/p/15697181.html)
+
+[资源网站汇总](https://1000userguide.com/#/?id=%e7%9b%ae%e5%bd%95)
 
 
 

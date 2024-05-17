@@ -8,10 +8,16 @@ export default defineUserConfig({
   theme: defaultTheme({
     navbar:[{
       text:'随记',
-      children:[{
-        text:'周刊',
-        link:'/notes/weekly-notes.md'
-      }]
+      children:[
+        {
+          text:'周刊',
+          link:'/notes/weekly-notes.md'
+        },
+        {
+          text:'优秀的网站',
+          link:'/notes/links.md'
+        },
+      ]
     }]
   })
 })
