@@ -40,10 +40,23 @@
 
 
 
-
 ## 资源
 
+
+
+### 综合
+
+ [Job In Corner](https://jobincorner.com/)   一个程序员招聘信息聚合网站，采集自各种社交平台/社区。 
+
+[资源网站汇总](https://1000userguide.com/#/?id=%e7%9b%ae%e5%bd%95)
+
+
+
 ### 工具类型
+
+[ 这个网站提供各种状态码的 HTTP 回应，供 API 调用，可以用来调试前端请求 ](https://httpraccoons.com/) 快速各种调试Code
+
+
 
 #### **AI相关**
 
@@ -54,15 +67,19 @@
 
 
 
+#### **设计相关**
+
 [创作属于你的Logo-自定义LOGO](https://www.logocook.shop/)
 
  [Animotion](https://cssanimotion.pages.dev/)  一个网页 CSS 动画生成器，可视化设定动画，自动生成CSS代码。 
 
-[includeIf-git多用户环境配置](https://www.cnblogs.com/librarookie/p/15697181.html)
+[免费AI-logo设计](https://logogalleria.com/zh-CN/app)
 
-[资源网站汇总](https://1000userguide.com/#/?id=%e7%9b%ae%e5%bd%95)
+[CSS效果模版](https://uiverse.io/elements)  开源 UI 元素 ，直接看到HTML和CSS代码
 
+[全国行政区域边界数据](https://geojson.hxkj.vip/)   全国省市区县行政边界数据免费下载，API 接口实时更新，适用于 echarts 等地图应用 
 
+[官方天地图](https://cloudcenter.tianditu.gov.cn/administrativeDivision/)
 
 
 
@@ -80,6 +97,8 @@
 [B站视频播放HTTP range](https://juejin.cn/post/7255110638154072120) 以后再看 b 站和知乎视频的时候，你会不会想起它是基于 range 来实现的分段下载和播放呢？ 
 
 [基于 HTTP Range 实现视频分片快速播放！](https://www.quanzhan.co/archives/572)
+
+[includeIf-git多用户环境配置](https://www.cnblogs.com/librarookie/p/15697181.html)
 
 
 
