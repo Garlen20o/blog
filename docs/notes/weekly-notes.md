@@ -9,20 +9,20 @@
 
 
 
- [2023年前端技术盘点与展望](https://mp.weixin.qq.com/s/LiygBJqMN8U_vSpAjxMibQ)  腾讯云开发者公众号与腾讯 MoonWebTeam 前端团队联合推出的长篇技术报告 
+ [2023年前端技术盘点与展望](https://mp.weixin.qq.com/s/LiygBJqMN8U_vSpAjxMibQ)  腾讯云开发者公众号与腾讯 MoonWebTeam 前端团队联合推出的长篇技术报告
 
 - **探索更好服务端渲染是前端框架的大势所趋**
 - **鸿蒙入局**
-- **拥抱 TypeScript** 
+- **拥抱 TypeScript**
 - **Rust --前端基建**
 
 
 
- [JS 空数组的 every() 方法](https://humanwhocodes.com/blog/2023/09/javascript-wtf-why-does-every-return-true-for-empty-array/)（英文） 
+ [JS 空数组的 every() 方法](https://humanwhocodes.com/blog/2023/09/javascript-wtf-why-does-every-return-true-for-empty-array/)（英文）
 
  `every()` 方法是一个[迭代方法](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array#迭代方法) ,对数组内每个item执行callback，不满足返回false，否则返回true。空数组永远返回true
 
- [如何用 CSP 防止 XSS 注入攻击](https://www.akshaykhot.com/content-security-policy/) 
+ [如何用 CSP 防止 XSS 注入攻击](https://www.akshaykhot.com/content-security-policy/)
 
 
 
@@ -32,9 +32,9 @@
 
 
 ## 工具
- [Fantastic-admin](https://github.com/fantastic-admin/basic)  一款开箱即用的 Vue3 中后台管理系统框架。 
+ [Fantastic-admin](https://github.com/fantastic-admin/basic)  一款开箱即用的 Vue3 中后台管理系统框架。
 
-[ 一个浏览器插件，允许在浏览器的侧边栏打开网页 ](https://www.sidebrowser.xyz/) ---- 类似   [Sidebar 插件](https://chromewebstore.google.com/detail/sidebartab-pin-chatgpt-or/acghhljehhigfeinngmggkpgbacpikfe)  
+[ 一个浏览器插件，允许在浏览器的侧边栏打开网页 ](https://www.sidebrowser.xyz/) ---- 类似   [Sidebar 插件](https://chromewebstore.google.com/detail/sidebartab-pin-chatgpt-or/acghhljehhigfeinngmggkpgbacpikfe)
 
 
 
@@ -46,7 +46,7 @@
 
 ### 综合
 
- [Job In Corner](https://jobincorner.com/)   一个程序员招聘信息聚合网站，采集自各种社交平台/社区。 
+ [Job In Corner](https://jobincorner.com/)   一个程序员招聘信息聚合网站，采集自各种社交平台/社区。
 
 [资源网站汇总](https://1000userguide.com/#/?id=%e7%9b%ae%e5%bd%95)
 
@@ -58,26 +58,36 @@
 
 
 
+#### JSON相关
+
+ [JSON Generator](https://www.jsongenerator.io/)  一个在线工具，用来生成符合指定格式的 JSON 伪数据。内置了不少功能函数，如： repeat(min?, max?) 便于生成
+
+
+
+
+
 #### **AI相关**
 
--  [AIHub](https://www.aihub.cn/)  
+-  [AIHub](https://www.aihub.cn/)
 
-- [POE；DL推荐，可看看](poe.com) 
+- [POE；DL推荐，可看看](poe.com)
 - [x-crawl](https://github.com/coder-hxl/x-crawl)一个 AI 辅助的爬虫库，基于 Node.js，抓取网页后，可以用文字描述所要的操作。
 
 
 
 #### **设计相关**
 
+[SVG搜索引擎](https://www.svgviewer.dev/)
+
 [创作属于你的Logo-自定义LOGO](https://www.logocook.shop/)
 
- [Animotion](https://cssanimotion.pages.dev/)  一个网页 CSS 动画生成器，可视化设定动画，自动生成CSS代码。 
+ [Animotion](https://cssanimotion.pages.dev/)  一个网页 CSS 动画生成器，可视化设定动画，自动生成CSS代码。
 
 [免费AI-logo设计](https://logogalleria.com/zh-CN/app)
 
 [CSS效果模版](https://uiverse.io/elements)  开源 UI 元素 ，直接看到HTML和CSS代码
 
-[全国行政区域边界数据](https://geojson.hxkj.vip/)   全国省市区县行政边界数据免费下载，API 接口实时更新，适用于 echarts 等地图应用 
+[全国行政区域边界数据](https://geojson.hxkj.vip/)   全国省市区县行政边界数据免费下载，API 接口实时更新，适用于 echarts 等地图应用
 
 [官方天地图](https://cloudcenter.tianditu.gov.cn/administrativeDivision/)
 
@@ -94,7 +104,7 @@
 
  [Web 音视频系列](https://hughfenghen.github.io/tag/WebAV/)    介绍如何在浏览器中处理音视频 ，当年理想直播厂相关技术栈，可以了解
 
-[B站视频播放HTTP range](https://juejin.cn/post/7255110638154072120) 以后再看 b 站和知乎视频的时候，你会不会想起它是基于 range 来实现的分段下载和播放呢？ 
+[B站视频播放HTTP range](https://juejin.cn/post/7255110638154072120) 以后再看 b 站和知乎视频的时候，你会不会想起它是基于 range 来实现的分段下载和播放呢？
 
 [基于 HTTP Range 实现视频分片快速播放！](https://www.quanzhan.co/archives/572)
 
@@ -106,7 +116,7 @@
 
 [精益开发的精益是什么？]: https://www.ruanyifeng.com/blog/2023/09/weekly-issue-270.html
 
- "精益开发"指的是**创建一个最小的产品原型，交付给客户，观察他们如何使用它，再快速推出小幅改进的下一代产品**。这样就能迎合快速变化的需求，不会引入无用功能。 
+ "精益开发"指的是**创建一个最小的产品原型，交付给客户，观察他们如何使用它，再快速推出小幅改进的下一代产品**。这样就能迎合快速变化的需求，不会引入无用功能。
 
 ```
 思考:精益开发有其道理，这样开发的产品更贴近客户，更能第一时间满足客户需求，占据当前的市场；但我认为最终的成果离不开团队整体的运作。最小的产品原型这个边界在哪里？把控不好很容易又过于详情；话事人没有把握住这个边界；客户最需要的东西反馈不到需求文档上；私认为我们团队目前的产品推进问题在此，过早开发复杂繁琐的功能，不符合精益二字。
@@ -154,14 +164,14 @@ ChatGPT 不理解任何材料，但可以利用这些材料，快速找到问题
 
 - 追寻源头的信息源（git、mdn上的信息质量更高）
 
- 试想如果别人的信息源没有你的好，那么，这些看不见信息源的人，只能接触得到二手信息甚至三手信息，只能获得被别人解读过的信息，这些信息被三传两递后必定会有错误和失真，甚至会被传递信息的中间人hack其中的信息（也就是“中间人攻击”），而这些找不出信息源的人，只能“被人喂养”，于是，他们最终会被困在信息的底层，永世不得翻身。 学习C语言，放着原作者K&R的不用，硬要用错误百出谭浩强的书，能有什么好呢？ 
+ 试想如果别人的信息源没有你的好，那么，这些看不见信息源的人，只能接触得到二手信息甚至三手信息，只能获得被别人解读过的信息，这些信息被三传两递后必定会有错误和失真，甚至会被传递信息的中间人hack其中的信息（也就是“中间人攻击”），而这些找不出信息源的人，只能“被人喂养”，于是，他们最终会被困在信息的底层，永世不得翻身。 学习C语言，放着原作者K&R的不用，硬要用错误百出谭浩强的书，能有什么好呢？
 
 知识：
 
 - 系统知识图
 - 知识缘由
 
- 任何知识都是有缘由的，了解一个知识的来龙去脉和前世今生，会让你对这个知识有非常强的掌握，而不再只是靠记忆去学习。 
+ 任何知识都是有缘由的，了解一个知识的来龙去脉和前世今生，会让你对这个知识有非常强的掌握，而不再只是靠记忆去学习。
 
 技能：
 
@@ -175,7 +185,7 @@ ChatGPT 不理解任何材料，但可以利用这些材料，快速找到问题
 
 ### 未来的交互：
 
- 前端人在这块能够做些什么？从技术上来讲，需要我们通过机器学习算法，实时地将虚拟图像覆盖到用户屏幕，并且和真实世界中的位置进行对齐，结合 WebRTC 技术实现网页浏览器实时获取和展示视频流，再利用 WebGL 的能力，进行 3D 人物模型加载，渲染和播放动画。 
+ 前端人在这块能够做些什么？从技术上来讲，需要我们通过机器学习算法，实时地将虚拟图像覆盖到用户屏幕，并且和真实世界中的位置进行对齐，结合 WebRTC 技术实现网页浏览器实时获取和展示视频流，再利用 WebGL 的能力，进行 3D 人物模型加载，渲染和播放动画。
 
 #### **Web 3D**
 
@@ -191,6 +201,6 @@ WebRTC 是一项实时通讯技术，它为前端打开了信息传递的新世�
 
 
 
- 
 
-体验或检测GPT-4V等大模型的图像能力；可进行四项测试（图片问答、文字识别、文档识别、物体检测） 
+
+体验或检测GPT-4V等大模型的图像能力；可进行四项测试（图片问答、文字识别、文档识别、物体检测）
