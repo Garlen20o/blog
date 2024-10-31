@@ -50,6 +50,8 @@
 
 [资源网站汇总](https://1000userguide.com/#/?id=%e7%9b%ae%e5%bd%95)
 
+[开源许可证选择器](https://open-source-license-chooser.toolsnav.top/zh/)  回答几个问题，帮你选择一个开源许可证 
+
 
 
 ### 工具类型
@@ -109,6 +111,10 @@
 [基于 HTTP Range 实现视频分片快速播放！](https://www.quanzhan.co/archives/572)
 
 [includeIf-git多用户环境配置](https://www.cnblogs.com/librarookie/p/15697181.html)
+
+[Ts 刷题](https://typeroom.cn/aboutus/origin)
+
+
 
 
 
