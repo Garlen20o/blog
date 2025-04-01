@@ -24,17 +24,30 @@
 
  [如何用 CSP 防止 XSS 注入攻击](https://www.akshaykhot.com/content-security-policy/)
 
+[多个Git账号，配置对应的SSH](https://stevenharman.net/configure-ssh-keys-for-multiple-github-accounts)  
 
-
+- **多个 GitHub 账号**：用户可能有个人的 GitHub 账号和企业提供的 GitHub Enterprise Cloud 账号。
+- **相同的主机名**：这两个账号都使用相同的主机名 `github.com`，这使得在 SSH 配置中区分它们变得困难。
 
 
 
 
 
 ## 工具
+
+### 中后台管理系统框架
+
  [Fantastic-admin](https://github.com/fantastic-admin/basic)  一款开箱即用的 Vue3 中后台管理系统框架。
 
 [ 一个浏览器插件，允许在浏览器的侧边栏打开网页 ](https://www.sidebrowser.xyz/) ---- 类似   [Sidebar 插件](https://chromewebstore.google.com/detail/sidebartab-pin-chatgpt-or/acghhljehhigfeinngmggkpgbacpikfe)
+
+### Office 文件转成 Markdown
+
+[MarkItDown](https://github.com/microsoft/markitdown) 微软官方推出的工具，将各种格式的文件（主要是 Office 文件）转成 Markdown 格式。标题是 GitHub 仓库链接，下面是[线上体验](https://markitdown.pro/)。 Perfect for documentation, blogs, and content management. 
+
+### 动画库
+
+ [barba.js](https://barba.js.org/)   一个 JS 库，让网站页面的切换产生平滑的动画效果。 
 
 
 
@@ -50,7 +63,7 @@
 
 [资源网站汇总](https://1000userguide.com/#/?id=%e7%9b%ae%e5%bd%95)
 
-[开源许可证选择器](https://open-source-license-chooser.toolsnav.top/zh/)  回答几个问题，帮你选择一个开源许可证 
+[开源许可证选择器](https://open-source-license-chooser.toolsnav.top/zh/)  回答几个问题，帮你选择一个开源许可证
 
 
 
@@ -120,7 +133,7 @@
 
 ## 言论
 
-[精益开发的精益是什么？]: https://www.ruanyifeng.com/blog/2023/09/weekly-issue-270.html
+[精益开发的精益是什么](https://www.ruanyifeng.com/blog/2023/09/weekly-issue-270.html)
 
  "精益开发"指的是**创建一个最小的产品原型，交付给客户，观察他们如何使用它，再快速推出小幅改进的下一代产品**。这样就能迎合快速变化的需求，不会引入无用功能。
 
@@ -166,7 +179,7 @@ ChatGPT 不理解任何材料，但可以利用这些材料，快速找到问题
 
 
 
-认知：
+《认知》：
 
 - 追寻源头的信息源（git、mdn上的信息质量更高）
 
@@ -189,17 +202,17 @@ ChatGPT 不理解任何材料，但可以利用这些材料，快速找到问题
 
 
 
-### 未来的交互：
+### 《未来的交互》：
 
  前端人在这块能够做些什么？从技术上来讲，需要我们通过机器学习算法，实时地将虚拟图像覆盖到用户屏幕，并且和真实世界中的位置进行对齐，结合 WebRTC 技术实现网页浏览器实时获取和展示视频流，再利用 WebGL 的能力，进行 3D 人物模型加载，渲染和播放动画。
 
-#### **Web 3D**
+**Web 3D**
 
 随着 5G 技术发展，视频加载速度会非常快，简单的实时渲染会被视频直接替代。复杂的可以通过服务器渲染，将画面传回网页中，只要传输够快，手机的性能就不再是问题。
 
 降低 web 3D 研发成本应该是将来的一个重要发展路线，随着技术门槛的降低，会吸引更多感兴趣的人加入促使其正向发展。所以 Web 3D 可能会朝着平台化的方向发展，能提供简单高效的工具将成为核心竞争力。
 
-#### WebRTC
+WebRTC
 
 WebRTC 是一项实时通讯技术，它为前端打开了信息传递的新世界大门，对于绝大多数前端开发者来说，对于信息的传递还局限于 XMLHttpRequest，升级到全双工大家会用到 WebSocket ，对于能力闭塞的前端来说，WebRTC 无疑拓宽了前端的技术门路。
 
@@ -207,6 +220,27 @@ WebRTC 是一项实时通讯技术，它为前端打开了信息传递的新世�
 
 
 
+### 《大模型体验测试方向》
+
+**体验或检测GPT-4V等大模型的图像能力；可进行四项测试（图片问答、文字识别、文档识别、物体检测）**
 
 
-体验或检测GPT-4V等大模型的图像能力；可进行四项测试（图片问答、文字识别、文档识别、物体检测）
+
+### 《 第二张幻灯片开始讲起 》
+
+**--- 抓住受众的心理---加深印象---发掘潜在的增值点**
+
+*正常的小说是自然的顺序，第一章介绍英雄，第二章是英雄开始行动。*
+
+*但是，你可以交换这两章，现在第一章是英雄开始行动，小说可能以一把枪指着英雄的头部开始。就在紧张气氛达到顶峰时，然后是第二章介绍英雄。这样的话，读者就更有理由想了解这个角色。*
+
+*同理，先演示幻灯片的第二部分，可能有同样的效果。*
+
+
+
+**场景：**  
+
+- **游戏，上来先给你一个满级的人物技能熟悉操作，然后打落凡间从零开始重新练级 （黑神话）**
+- **电视剧，综艺高潮情节时接去广告（观众留存与首屏广告的得益）**
+- **...**
+
