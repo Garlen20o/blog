@@ -12,3 +12,7 @@
 
 [张洪Heo - 分享设计与科技生活](https://blog.zhheo.com/)
 
+
+
+[macos开发起步](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/)
+
