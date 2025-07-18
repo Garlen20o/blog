@@ -10,3 +10,10 @@
 
 沉浸式翻译
 
+
+
+
+
+## websocket封装
+
+[ws封装](https://github.com/JustinGastby/supa-simple-socket/tree/main)
