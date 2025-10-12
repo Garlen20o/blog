@@ -17,3 +17,7 @@
 ## websocket封装
 
 [ws封装](https://github.com/JustinGastby/supa-simple-socket/tree/main)
+
+
+## 资源
+https://www.xrayvip.com/free.yaml

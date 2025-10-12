@@ -31,6 +31,10 @@
 
 
 
+[浏览器默认屏蔽的端口](https://www.keenformatics.com/ports-that-are-blocked-by-browsers)
+
+**6000端口因与X11协议相关，被Chrome等浏览器列为默认禁止访问的端口，主要出于安全考虑。**还有其他被浏览器禁的
+
 
 
 ## 工具
@@ -59,7 +63,7 @@
 
 ### 综合
 
- [Job In Corner](https://jobincorner.com/)   一个程序员招聘信息聚合网站，采集自各种社交平台/社区。
+ ~~[Job In Corner](https://jobincorner.com/)   一个程序员招聘信息聚合网站，采集自各种社交平台/社区。~~
 
 [资源网站汇总](https://1000userguide.com/#/?id=%e7%9b%ae%e5%bd%95)
 
@@ -105,6 +109,8 @@
 [全国行政区域边界数据](https://geojson.hxkj.vip/)   全国省市区县行政边界数据免费下载，API 接口实时更新，适用于 echarts 等地图应用
 
 [官方天地图](https://cloudcenter.tianditu.gov.cn/administrativeDivision/)
+
+[素材SoSo（壁纸查找）](https://clipso.agilestudio.cn/)
 
 
 
@@ -243,4 +249,12 @@ WebRTC 是一项实时通讯技术，它为前端打开了信息传递的新世�
 - **游戏，上来先给你一个满级的人物技能熟悉操作，然后打落凡间从零开始重新练级 （黑神话）**
 - **电视剧，综艺高潮情节时接去广告（观众留存与首屏广告的得益）**
 - **...**
+
+
+
+### 《留给初中阶程序员的时间不多了》
+
+**泛计算机知识**、**适应能力**、**工程化能力**（拓宽技术边界，拓宽认识面）
+
+**替代你的不是 AI，而是那些更会用 AI 也更懂计算机的人**
 
