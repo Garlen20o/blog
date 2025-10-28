@@ -15,7 +15,7 @@ export default hopeTheme({
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   // repo: "https://github.com/Garlen20o",
-  docsDir: "src",
+  docsDir: "docs",
 
   // 导航栏
   navbar,
