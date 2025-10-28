@@ -1,22 +1,25 @@
 {
-  "name": "vuepress-starter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "garlen-blog",
+  "description": "A project of vuepress-theme-hope",
+  "version": "2.0.0",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vuepress dev docs --port 8801 --temp .temp",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "pnpm dlx vp-update"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.63",
-    "vue": "^3.3.4",
-    "vuepress": "2.0.0-beta.63"
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "sass-embedded": "^1.93.2",
+    "vue": "^3.5.22",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-theme-hope": "2.0.0-rc.96"
   },
-  "dependencies": {
-    "@vuepress/cli": "2.0.0-beta.63"
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }

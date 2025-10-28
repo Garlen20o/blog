@@ -1,3 +1,12 @@
+---
+title: '记录周刊OR技术文章'
+description: '记录[周刊](https://www.ruanyifeng.com/blog/)中，个人认为有意思，有用的内容；输出一些自己的观点'
+date: 2023-01-28
+lastUpdated: true
+tags:
+  - weekly
+---
+
 # 记录周刊OR技术文章
 
 记录[周刊](https://www.ruanyifeng.com/blog/)中，个人认为有意思，有用的内容；输出一些自己的观点
@@ -24,7 +33,7 @@
 
  [如何用 CSP 防止 XSS 注入攻击](https://www.akshaykhot.com/content-security-policy/)
 
-[多个Git账号，配置对应的SSH](https://stevenharman.net/configure-ssh-keys-for-multiple-github-accounts)  
+[多个Git账号，配置对应的SSH](https://stevenharman.net/configure-ssh-keys-for-multiple-github-accounts)
 
 - **多个 GitHub 账号**：用户可能有个人的 GitHub 账号和企业提供的 GitHub Enterprise Cloud 账号。
 - **相同的主机名**：这两个账号都使用相同的主机名 `github.com`，这使得在 SSH 配置中区分它们变得困难。
@@ -47,11 +56,11 @@
 
 ### Office 文件转成 Markdown
 
-[MarkItDown](https://github.com/microsoft/markitdown) 微软官方推出的工具，将各种格式的文件（主要是 Office 文件）转成 Markdown 格式。标题是 GitHub 仓库链接，下面是[线上体验](https://markitdown.pro/)。 Perfect for documentation, blogs, and content management. 
+[MarkItDown](https://github.com/microsoft/markitdown) 微软官方推出的工具，将各种格式的文件（主要是 Office 文件）转成 Markdown 格式。标题是 GitHub 仓库链接，下面是[线上体验](https://markitdown.pro/)。 Perfect for documentation, blogs, and content management.
 
 ### 动画库
 
- [barba.js](https://barba.js.org/)   一个 JS 库，让网站页面的切换产生平滑的动画效果。 
+ [barba.js](https://barba.js.org/)   一个 JS 库，让网站页面的切换产生平滑的动画效果。
 
 
 
@@ -244,7 +253,7 @@ WebRTC 是一项实时通讯技术，它为前端打开了信息传递的新世�
 
 
 
-**场景：**  
+**场景：**
 
 - **游戏，上来先给你一个满级的人物技能熟悉操作，然后打落凡间从零开始重新练级 （黑神话）**
 - **电视剧，综艺高潮情节时接去广告（观众留存与首屏广告的得益）**
