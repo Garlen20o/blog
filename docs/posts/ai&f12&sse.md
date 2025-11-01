@@ -1,9 +1,10 @@
 ---
-title: '记录破解文心一言F12防调试，新认识一类Content-Type:SSE'
+title: '初识SSE--通过破解文心一言F12防调试'
 description: '记录破解文心一言F12防调试的经历，模拟防调试的js脚本，并实现破解，认识一种Content-Type：text/event-stream;'
 date: 2023-04-15
-lastUpdated: 2025-04-15 23:35:37
+lastUpdated: false
 tags:
+  - Web
   - SSE
   - AI
 ---
