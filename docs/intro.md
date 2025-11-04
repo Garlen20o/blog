@@ -1,6 +1,8 @@
 ---
 icon: circle-info
 cover: /assets/images/cover3.jpg
+date: 2022-06-30
+lastUpdated: false
 ---
 
 # 关于本站
