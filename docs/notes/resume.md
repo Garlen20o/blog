@@ -34,11 +34,11 @@ lastUpdated: true
 
 
 ## 个人技能
-熟练掌握HTML5，CSS3（Sass），熟悉常见布局；熟悉JavaScript/TypeScript。
-熟悉Vue.js2/3 Composition API及相关生态，Axios，具有企业项目开发经验。
-熟练使用主流工具库ElementUI、Vant、uview、nut-ui、ECharts、dayjs、Amap等。
-熟悉Webpack前端构建工具，npm/pnpm/nvm，了解微前端Wujie。
-熟悉git/svn版本工具，熟练使用stash，分支概念管理代码。
-熟悉uni-app和Taro, 开发过多个微信小程序，公众号网页，公众号扫码登陆，熟悉微信生态。
-熟悉Nginx常见配置，在本地环境配置nginx做开发自测验证。
-熟悉Node.js，熟悉使用Koa，MySQL搭建基本接口。
+1. 熟练掌握HTML5，CSS3（Sass），熟悉常见布局；熟悉JavaScript/TypeScript。
+2. 熟悉Vue.js2/3 Composition API及相关生态，Axios，具有企业项目开发经验。
+3. 熟练使用主流工具库ElementUI、Vant、uview、nut-ui、ECharts、dayjs、Amap等。
+4. 熟悉Webpack前端构建工具，npm/pnpm/nvm，了解微前端Wujie。
+5. 熟悉git/svn版本工具，熟练使用stash，分支概念管理代码。
+6. 熟悉uni-app和Taro, 开发过多个微信小程序，公众号网页，公众号扫码登陆，熟悉微信生态。
+7. 熟悉Nginx常见配置，在本地环境配置nginx做开发自测验证。
+8. 熟悉Node.js，熟悉使用Koa，MySQL搭建基本接口。
