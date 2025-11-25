@@ -30,3 +30,5 @@ tags:
 
 
 
+[查询中国节假日、调休日、工作日、24节气、以及农历阳历互转的函数](https://github.com/vsme/chinese-days)
+https://chinese-days.yaavi.me/guide/getting-started.html
