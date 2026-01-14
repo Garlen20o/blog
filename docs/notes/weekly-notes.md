@@ -73,6 +73,8 @@ tags:
  [barba.js](https://barba.js.org/)   一个 JS 库，让网站页面的切换产生平滑的动画效果。
 
 
+[PocketMocker](https://github.com/tianchangNorth/pocket-mocker)
+做这个工具的初衷是因为厌倦了在代码里硬编码假数据。
 
 
 
@@ -277,3 +279,13 @@ WebRTC 是一项实时通讯技术，它为前端打开了信息传递的新世�
 
 **替代你的不是 AI，而是那些更会用 AI 也更懂计算机的人**
 
+
+
+
+## 随笔记录
+
+
+[Open-AutoGLM](https://github.com/zai-org/Open-AutoGLM)
+Open-AutoGLM 是一个“让大模型通过电脑远程操控真实手机”的实验性 Agent 框架，而不是一个面向普通用户的自动化 App。
+
+我一直比较期待手机配备的ai智能助手。目前已经有开源的：由电脑端运行（或至少有一个主机运行 Agent 逻辑）并通过 ADB/HDC 与手机连接来实现自动化控制。 这是一个验证AI是否能操作手机的项目。有意思，有大佬已经二次开发打包纯android的应用了，摆脱电脑端，需要自行配置大模型key。

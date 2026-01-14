@@ -1,10 +1,11 @@
 ---
 title: Obsidian入门使用
 description: Obsidian入门使用
-date: 2025-11-22
-lastUpdated: false
+date: 2026-01-14
+lastUpdated: true
 tags:
   - 工具
+  -
 ---
 
 ## 场景
