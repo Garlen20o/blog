@@ -5,7 +5,6 @@ date: 2026-01-14
 lastUpdated: true
 tags:
   - 工具
-  -
 ---
 
 ## 场景
@@ -38,9 +37,9 @@ tags:
 
 **template使用：**
 1. 新建一个空白笔记。
-    
+
 2. 按下 `Ctrl/Cmd + P`。
-    
+
 3. 输入 `插入模板` (Insert template)。
 
 
