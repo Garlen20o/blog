@@ -76,7 +76,7 @@ tags:
 [PocketMocker](https://github.com/tianchangNorth/pocket-mocker)
 做这个工具的初衷是因为厌倦了在代码里硬编码假数据。
 
-
+[jsonriver](https://github.com/rictic/jsonriver) `jsonriver` 的 `parse` 函数返回的是一个 `AsyncIterable`（异步迭代流）。AI流式渲染输出的处理方案。
 
 ## 资源
 
