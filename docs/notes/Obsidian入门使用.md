@@ -50,3 +50,11 @@ tags:
 解决：
 1. 可以把配置文件 .obsidian抽到全局一个路径放着，
 2. 通过软连接`ln -s /global/ /your worksapce`到你的仓库就可以同步之前的配置了。（Very Good）
+
+
+
+## 插件
+
+Obsidian-git配置: 
+1. 在Custom Git Binary Path中填上git.exe的路径，git.exe位于解压后文件夹的bin目录下。
+2. 在Obsidian中执行命令Git: Open source control view，在侧栏显示
