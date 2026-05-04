@@ -32,3 +32,14 @@ tags:
 
 [查询中国节假日、调休日、工作日、24节气、以及农历阳历互转的函数](https://github.com/vsme/chinese-days)
 https://chinese-days.yaavi.me/guide/getting-started.html
+
+
+
+
+## 插件
+
+### vite
+
+library mode
+一款用于在 [库模式](https://cn.vitejs.dev/guide/build.html#library-mode) 中从 `.ts(x)` 或 `.vue` 源文件生成类型文件（`*.d.ts`）的 Unplugin 插件。
+[unplugin-dts](https://github.com/qmhc/unplugin-dts/blob/main/README.zh-CN.md)
