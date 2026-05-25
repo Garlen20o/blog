@@ -7,6 +7,7 @@ title: 主页
 heroText: Garlen‘s blog
 heroFullScreen: true
 tagline: Less is more
+bgImage: nasa-Q1p7bh3SHj8-unsplash.jpg
 footer: Copyright © 2023-present
 projects:
   # - icon: folder-open
