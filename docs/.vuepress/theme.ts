@@ -11,7 +11,7 @@ export default hopeTheme({
     name: "Garlen",
     url: "https://garlen20o.github.io/blog/",
   },
-
+  darkmode: "enable",
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   // repo: "https://github.com/Garlen20o",
@@ -31,13 +31,13 @@ export default hopeTheme({
   // 博客相关
   blog: {
     avatar: "./avatar.png",
-    description: "前端开发",
+    description: "记录过程和想法",
     // intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/Garlen20o",
-      CSDN: {
-        link:"https://blog.csdn.net/weixin_45443843?spm=1000.2115.3001.5343",
-        icon:`<svg t="1761624375978" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4810" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M512 0c282.784 0 512 229.216 512 512s-229.216 512-512 512S0 794.784 0 512 229.216 0 512 0z m189.952 752l11.2-108.224c-31.904 9.536-100.928 16.128-147.712 16.128-134.464 0-205.728-47.296-195.328-146.304 11.584-110.688 113.152-145.696 232.64-145.696 54.784 0 122.432 8.8 151.296 18.336L768 272.704C724.544 262.24 678.272 256 599.584 256c-203.2 0-388.704 94.88-406.4 263.488C178.336 660.96 303.584 768 535.616 768c80.672 0 138.464-6.432 166.336-16z" fill="#CE000D" p-id="4811"></path></svg>`
+      "Music Shelf": {
+        link: "https://music.garlenexus.top",
+        icon: `<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.75 3.81a1 1 0 0 1 .906-.996l9-.846a1 1 0 0 1 1.094.996v2.181a1 1 0 0 1-.901.995l-9 .893a1 1 0 0 1-1.099-.995V3.81Z" fill="currentColor"/><ellipse cx="14.75" cy="15" rx="3" ry="2.5" fill="currentColor"/><ellipse cx="5.75" cy="16" rx="3" ry="2.5" fill="currentColor"/><path fill-rule="evenodd" clip-rule="evenodd" d="M15.75 5h2v10h-2V5Zm-9 1h2v10h-2V6Z" fill="currentColor"/></svg>`,
       },
       // VuePressThemeHope: {
       //   icon: "https://theme-hope-assets.vuejs.press/logo.svg",

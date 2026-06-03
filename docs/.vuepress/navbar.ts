@@ -4,4 +4,9 @@ export default navbar([
   "/",
   "/notes/",
   "/posts/",
+  {
+    text: "Music Shelf",
+    icon: "music",
+    link: "https://music.garlenexus.top"
+  }
 ]);
