@@ -1,6 +1,6 @@
 ---
-title: '浅识Content-Disposition'
-description: '浅识Content-Disposition文件下载响应标头---小程序复用H5预览PDF问题'
+title: 浅识Content-Disposition
+description: 浅识Content-Disposition文件下载响应标头---小程序复用H5预览PDF问题
 date: 2024-05-06
 lastUpdated: false
 tags:
