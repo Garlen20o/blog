@@ -43,3 +43,15 @@ https://chinese-days.yaavi.me/guide/getting-started.html
 library mode
 一款用于在 [库模式](https://cn.vitejs.dev/guide/build.html#library-mode) 中从 `.ts(x)` 或 `.vue` 源文件生成类型文件（`*.d.ts`）的 Unplugin 插件。
 [unplugin-dts](https://github.com/qmhc/unplugin-dts/blob/main/README.zh-CN.md)
+
+
+
+## 动画
+
+
+[LottieFiles](https://lottiefiles.com/)  Lottie 素材官方站
+
+
+## 素材
+
+[生成Favicon](https://favicon.io/) 支持PNG-ICO、 Text-ICO，可以批量导出PNG icons, Apple Touch Icon, Android icons,  site.webmanifest
