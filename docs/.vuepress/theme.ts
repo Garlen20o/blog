@@ -144,6 +144,7 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://comment.garlenexus.top",
+      pageview: true,
     },
 
     components: {
