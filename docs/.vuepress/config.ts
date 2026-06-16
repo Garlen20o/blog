@@ -1,7 +1,6 @@
 import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
-
 export default defineUserConfig({
   lang: "zh-CN",
   title: "Garlen",
@@ -13,6 +12,11 @@ export default defineUserConfig({
         'link', { rel: 'icon', href: '/avatar.png' }
     ]
   ],
+
+  extendsPage: (page) => {
+    page.frontmatter.commentID = `https://blog.garlenexus.top${page.path}`;
+  },
+
   theme,
 
   // 和 PWA 一起启用
