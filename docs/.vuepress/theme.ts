@@ -5,11 +5,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://garlen20o.github.io/",
+  hostname: "https://blog.garlenexus.top/",
 
   author: {
     name: "Garlen",
-    url: "https://garlen20o.github.io/blog/",
+    url: "https://blog.garlenexus.top/",
   },
   darkmode: "enable",
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -144,6 +144,7 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://comment.garlenexus.top",
+      pageview: true,
       imageUploader: false
     },
 

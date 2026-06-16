@@ -4,7 +4,7 @@ import theme from "./theme.js";
 export default defineUserConfig({
   lang: "zh-CN",
   title: "Garlen",
-  description: "vuepress-theme-hope 的博客演示",
+  description: "Garlen的个人博客",
 
   head: [
     // 设置 favor.ico，.vuepress/public 下
@@ -12,10 +12,6 @@ export default defineUserConfig({
         'link', { rel: 'icon', href: '/avatar.png' }
     ]
   ],
-
-  extendsPage: (page) => {
-    page.frontmatter.commentID = `https://blog.garlenexus.top${page.path}`;
-  },
 
   theme,
 
