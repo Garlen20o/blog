@@ -38,81 +38,37 @@ tags:
 | `SKILL.md`       | 业务流程说明书：完整场景执行逻辑、步骤约束、意图匹配关键词、异常处理规则   | ★★★（最低）      |
 | `components/` 目录 | 原子组件：对话窗口内渲染的可视化卡片（商品卡、订单确认卡、表单卡）      | 交互展示层        |
 
-了解配置，可以参考官方demo。
+了解配置，可以参考官方[示例 demo](https://github.com/wechat-miniprogram/ai-mode-demo)。
+## mcp.json
 
-```json
-{
+| 属性           | 是否必填 | 说明                                                                                          |
+| ------------ | ---- | ------------------------------------------------------------------------------------------- |
+| name         | 是    | 标识符，跟 `index.js` 中导出的原子接口函数名一致                                                              |
+| description  | 是    | 原子接口的功能描述                                                                                   |
+| inputSchema  | 是    | 就是api的入参                                                                                    |
+| outputSchema | 建议填  | api约束的 `structuredContent`对应的 schema，就是接口返回的数据结构                                            |
+| _meta        | 否    | 可指定渲染的原子组件，`componentPath` 相对于 `SKILL` 目录，如 `{ "ui": { "componentPath": "path/to/comp" } }` |
 
-"name": "getRecommendedDrinks",
 
-"description": "获取推荐饮品列表（业务对象：精选饮品卡片）。\n调用前置条件：用户表达想喝饮品但未指定具体商品名（如「想喝点什么」「推荐一下」「有什么好喝的」）。\n【严禁场景】用户已说出具体商品名（如「来杯拿铁」）时，禁止调用本接口，应调用 searchDrinks 或直接 selectDrink。",
 
-"inputSchema": {
+## 接口
+原子接口就是从你的服务接口获取到的数据后，组装成微信要的数据结构
 
-"type": "object",
+| 属性                | 类型                         | 说明                                     |
+| ----------------- | -------------------------- | -------------------------------------- |
+| isError           | boolean                    | 默认为 false                              |
+| content           | ContentBlock[]             | 返回给 LLM 的文本内容。描述业务接口的结果，可以用统计查询结果。     |
+| structuredContent | { [key: string]: unknown } | 返回给 LLM 的结构化数据，对应mcp.json的outputSchema |
+| _meta             | { [key: string]: unknown } | 对 LLM 不可见，可携带元数据，可以用于渲染页面所需要的数据。       |
 
-"properties": {
+# 运行机制
 
-	"scenario": {
-	
-	"type": "string",
-	
-	"description": "使用场景。仅允许以下取值：'default'（默认推荐）/ 'coffee'（咖啡类）/ 'tea'（茶饮类）/ 'warm'（暖饮）。用户未明确表达品类偏好时，留空走 default。",
-	
-	"enum": ["default", "coffee", "tea", "warm"]
-	
-	}
+微信客户端与小程序 AI 后台基于小程序 MCP 完成交互，开发者无需理解交互协议细节，只需要按框架设计提供完整的 `SKILL` 实现，小程序 AI 就能正确地推理及执行相应的原子接口.
 
-}
+![](../images/wxai.jpeg)
 
-},
 
-"outputSchema": {
+# 总结
 
-	"type": "object",
-	
-	"properties": {
-	
-	"items": {
-	
-	"type": "array",
-	
-	"description": "推荐饮品列表",
-	
-	"items": {
-	
-		"type": "object",
-		
-		"properties": {
-		
-			"drinkId": { "type": "number", "description": "商品唯一 ID" },
-			
-			"name": { "type": "string", "description": "商品名称" },
-			
-			"price": { "type": "number", "description": "基础价格（元）" },
-			
-			"categoryName": { "type": "string", "description": "分类名" },
-			
-			"description": { "type": "string", "description": "商品简介" }
-		
-		}
-		
-	}
-	
-	},
-	
-	"total": { "type": "number", "description": "该场景下可选饮品总数" },
-	
-	"hasMore": { "type": "boolean", "description": "是否有更多商品可浏览" },
-	
-	"keyword": { "type": "string", "description": "搜索关键词（推荐场景为 null）" }
-	
-	}
-
-},
-
-"_meta": { "ui": { "componentPath": "components/recommended-drinks/index" } }
-
-},
-```
+在计算机领域有一句话，万物都可以通过新增一层来实现。这个微信AI实现感觉就是如此。原有的业务接口都是完善的话，通过自身的服务器api --- 组装成微信要求的数据结构，通过Mcp.json的约束和 SKILL的描述就完成了。
 
