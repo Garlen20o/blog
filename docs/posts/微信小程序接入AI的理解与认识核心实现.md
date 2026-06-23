@@ -1,6 +1,6 @@
 ---
 title: 微信小程序接入AI的形式与核心实现
-description:
+description: 了解微信小程序AI实现。微信 AI 智能体收到用户自然语言指令后，自动下载、执行、展示结果，全程无需用户手动打开小程序主页面，是微信生态下最具潜力的下一代流量入口。
 date: 2026-06-16
 lastUpdated: true
 tags:
@@ -49,8 +49,6 @@ tags:
 | outputSchema | 建议填  | api约束的 `structuredContent`对应的 schema，就是接口返回的数据结构                                            |
 | _meta        | 否    | 可指定渲染的原子组件，`componentPath` 相对于 `SKILL` 目录，如 `{ "ui": { "componentPath": "path/to/comp" } }` |
 
-
-
 ## 接口
 原子接口就是从你的服务接口获取到的数据后，组装成微信要的数据结构
 
@@ -70,5 +68,9 @@ tags:
 
 # 总结
 
-在计算机领域有一句话，万物都可以通过新增一层来实现。这个微信AI实现感觉就是如此。原有的业务接口都是完善的话，通过自身的服务器api --- 组装成微信要求的数据结构，通过Mcp.json的约束和 SKILL的描述就完成了。
+在计算机领域有一句话，万物都可以通过新增一层来实现。这个微信AI实现感觉就是如此。
+- 自身的服务器api完善。
+- 组装成微信要求的数据结构。
+- 通过Mcp.json的约束和 SKILL的描述。
+而且社区都有SKILL[wxa-skills-generate](https://skillhub.cn/areas/miniprogram)帮忙了，直接让AI做，加审核。等微信完善上线这个功能后，可能又是一轮流量入口抢占。
 
