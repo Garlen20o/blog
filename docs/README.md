@@ -4,7 +4,7 @@ layout: Blog
 icon: house
 title: 主页
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: Garlen‘s blog
+heroText: Garlen's blog
 heroFullScreen: true
 tagline: Less is more
 bgImage: nasa-Q1p7bh3SHj8-unsplash.jpg

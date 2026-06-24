@@ -1,1 +1,1 @@
-Garlen‘s blog
+Garlen's blog

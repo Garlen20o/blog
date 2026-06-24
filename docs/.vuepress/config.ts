@@ -3,8 +3,8 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "Garlen",
-  description: "Garlen的个人博客",
+  title: "Garlen20o",
+  description: "Garlen20o的个人博客",
 
   head: [
     // 设置 favor.ico，.vuepress/public 下
